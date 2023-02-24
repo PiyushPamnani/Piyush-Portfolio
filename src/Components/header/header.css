@@ -1,0 +1,85 @@
+header {
+  height: 100vh;
+  padding-top: 7rem;
+  overflow: hidden;
+}
+
+.header__container {
+  text-align: center;
+  height: 100%;
+  position: relative;
+}
+
+/* =================== DOWNLOAD BUTTONS =============== */
+
+.download_btns {
+  margin-top: 2.5rem;
+  display: flex;
+  gap: 1.2rem;
+  justify-content: center;
+}
+
+/* =================== SOCIAL MEDIA LINKS =============== */
+
+.social_links {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  gap: 1rem;
+  left: 0;
+  bottom: 3.5rem;
+  align-items: center;
+}
+
+.social_links::after {
+  content: "";
+  width: 1px;
+  height: 2rem;
+  background: var(--color-primary);
+}
+
+/* =================== IMAGE =============== */
+
+.myImg {
+  background: linear-gradient(var(--color-primary), transparent);
+  height: 30rem;
+  width: 22rem;
+  position: absolute;
+  left: calc(50% - 11rem);
+  margin-top: 4.2rem;
+  border-radius: 12rem 12rem 0 0;
+  overflow: hidden;
+  padding: 3rem 2.65rem 1.5rem 1.5rem;
+}
+
+/* =================== SCROLL DOWN =============== */
+
+.scroll_down {
+  position: absolute;
+  right: -2.5rem;
+  bottom: 5rem;
+  transform: rotate(90deg);
+  font-weight: 300;
+  font-size: 0.9rem;
+}
+
+/* ===================== MEDIA QUERY (TABS) ====================== */
+
+@media screen and (max-width: 1023px) {
+  header {
+    height: 68vh;
+  }
+}
+
+/* ===================== MEDIA QUERY (MOBILES) ====================== */
+
+@media screen and (max-width: 600px) {
+  header {
+    height: 105vh;
+  }
+
+  .social_links,
+  .scroll_down {
+    display: none;
+  }
+}
