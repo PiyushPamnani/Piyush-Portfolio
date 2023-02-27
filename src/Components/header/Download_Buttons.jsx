@@ -1,5 +1,5 @@
 import React from "react";
-import CV from "../../assests/Piyush Pamnani.pdf";
+import CV from "../../assests/Piyush_Pamnani.pdf";
 
 const Download_Buttons = () => {
   return (

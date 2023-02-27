@@ -1,5 +1,5 @@
 import React from "react";
-import { BsTwitter, BsInstagram } from "react-icons/bs";
+import { BsTwitter, BsInstagram, BsGithub, BsLinkedin } from "react-icons/bs";
 import "./footer.css";
 
 const Footer = () => {
@@ -31,10 +31,19 @@ const Footer = () => {
       </ul>
 
       <div className="footer_socials">
-        <a href="https://instagram.com/piyush.pamnani">
+        <a href="https://instagram.com/piyush.pamnani" target="_blank">
           <BsInstagram />
         </a>
-        <a href="https://twitter.com/piyushpamnani22">
+        <a href="https://github.com/PiyushPamnani" target="_blank">
+          <BsGithub />
+        </a>
+        <a
+          href="https://www.linkedin.com/in/piyush-pamnani-199766167/"
+          target="_blank"
+        >
+          <BsLinkedin />
+        </a>
+        <a href="https://twitter.com/piyushpamnani22" target="_blank">
           <BsTwitter />
         </a>
       </div>
