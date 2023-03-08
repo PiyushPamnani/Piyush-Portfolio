@@ -1,0 +1,32 @@
+.arrow__container {
+  color: var(--swiper-theme-color);
+  font-size: 2.2rem;
+  position: fixed;
+  z-index: 2;
+  right: 3.2rem;
+  bottom: 2rem;
+  transition: var(--transition);
+}
+
+.arrow_Ncontainer {
+  color: var(--swiper-theme-color);
+  position: fixed;
+  z-index: 2;
+  right: 3.2rem;
+  bottom: -20%;
+  transition: var(--transition);
+}
+
+/* ===================== MEDIA QUERY (MOBILES) ====================== */
+
+@media screen and (max-width: 600px) {
+  .arrow__container {
+    right: 2.2rem;
+    bottom: 7rem;
+  }
+
+  .arrow_Ncontainer {
+    right: 2.2rem;
+    bottom: -20%;
+  }
+}

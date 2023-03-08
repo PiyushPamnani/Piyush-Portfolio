@@ -1,6 +1,7 @@
 import React from "react";
 import Header from "./Components/header/Header.jsx";
 import Navbar from "./Components/Navbar/Navbar.jsx";
+import Arrow from "./Components/Up_arrow/Arrow.jsx";
 import About from "./Components/About/About.jsx";
 import Skills from "./Components/Skills/Skills.jsx";
 import Experience from "./Components/Experience/Experience.jsx";
@@ -14,6 +15,7 @@ const App = () => {
       <Header />
       <Navbar />
       <About />
+      <Arrow />
       <Skills />
       <Experience />
       <Portfolio />
