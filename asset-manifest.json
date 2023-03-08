@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/Piyush-Portfolio/static/css/main.1fa78f87.css",
-    "main.js": "/Piyush-Portfolio/static/js/main.aa98788b.js",
+    "main.css": "/Piyush-Portfolio/static/css/main.7b7f9885.css",
+    "main.js": "/Piyush-Portfolio/static/js/main.7a73e9cb.js",
     "static/media/piyush.png": "/Piyush-Portfolio/static/media/piyush.1f2b746165c153c87ea5.png",
     "static/media/about-piyush.jpeg": "/Piyush-Portfolio/static/media/about-piyush.176081f98ac2ea1dfc5a.jpeg",
     "static/media/Piyush_Pamnani.pdf": "/Piyush-Portfolio/static/media/Piyush_Pamnani.e6808150a99b62a44d94.pdf",
     "static/media/Supermarket_Billing_System.jpg": "/Piyush-Portfolio/static/media/Supermarket_Billing_System.c91845ba011e37e40913.jpg",
     "static/media/Lane_Detection_OpenCV.jpg": "/Piyush-Portfolio/static/media/Lane_Detection_OpenCV.15ca832493c3748f74fc.jpg",
     "index.html": "/Piyush-Portfolio/index.html",
-    "main.1fa78f87.css.map": "/Piyush-Portfolio/static/css/main.1fa78f87.css.map",
-    "main.aa98788b.js.map": "/Piyush-Portfolio/static/js/main.aa98788b.js.map"
+    "main.7b7f9885.css.map": "/Piyush-Portfolio/static/css/main.7b7f9885.css.map",
+    "main.7a73e9cb.js.map": "/Piyush-Portfolio/static/js/main.7a73e9cb.js.map"
   },
   "entrypoints": [
-    "static/css/main.1fa78f87.css",
-    "static/js/main.aa98788b.js"
+    "static/css/main.7b7f9885.css",
+    "static/js/main.7a73e9cb.js"
   ]
 }
