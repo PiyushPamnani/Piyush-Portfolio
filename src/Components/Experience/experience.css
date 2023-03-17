@@ -46,6 +46,85 @@
   color: var(--color-primary);
 }
 
+.experience_details-more {
+  display: flex;
+  justify-content: center;
+  margin-top: 2.2rem;
+}
+
+.experience_details-more > span {
+  color: var(--color-primary);
+  transition: var(--transition);
+}
+
+.experience_details-more > span:hover {
+  color: var(--color-white);
+  cursor: pointer;
+}
+
+.experience_model {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 1rem;
+  z-index: 2;
+  opacity: 0;
+  visibility: hidden;
+  transition: var(--transition);
+  backdrop-filter: blur(7px);
+}
+
+.experience_model-content {
+  position: relative;
+  background-color: var(--color-bg-variant);
+  padding: 1.5rem;
+  border-radius: 1.2rem;
+}
+
+.experience_model-title {
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.experience_model-close {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  font-size: 1.5rem;
+  color: var(--color-primary);
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+.experience_model-close:hover {
+  color: var(--color-white);
+}
+
+.experience_model-points {
+  display: grid;
+  row-gap: 1rem;
+}
+
+.experience_model-point {
+  display: flex;
+}
+
+.experience_model-point > p {
+  margin-left: 0.7rem;
+}
+
+/* Active Modal */
+.active-model {
+  opacity: 1;
+  visibility: visible;
+}
+
 @media screen and (max-width: 1023px) {
   .experience__container {
     grid-template-columns: 1fr;
