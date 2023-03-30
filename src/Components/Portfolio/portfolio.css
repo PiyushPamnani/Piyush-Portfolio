@@ -1,16 +1,10 @@
 .container.portfolio__container {
-  width: 35%;
+  width: 30%;
   padding-bottom: 2rem;
 }
 
 .swiper-pagination-clickable .swiper-pagination-bullet {
   background: var(--color-primary);
-}
-
-.portfolio__container {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 2.5rem;
 }
 
 .portfolio_item {
@@ -32,8 +26,13 @@
 
 .portfolio_item-btn {
   display: flex;
+  gap: 1rem;
   margin-bottom: 1rem;
   justify-content: center;
+}
+
+.demoNone {
+  display: none;
 }
 
 /* ===================== MEDIA QUERY (TABS) ====================== */
