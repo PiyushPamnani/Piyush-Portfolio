@@ -1,19 +1,20 @@
 {
   "files": {
     "main.css": "/Piyush-Portfolio/static/css/main.8b2e6057.css",
-    "main.js": "/Piyush-Portfolio/static/js/main.841bb6c6.js",
-    "static/media/money.jpg": "/Piyush-Portfolio/static/media/money.7a463fcbc86f64e9dbb3.jpg",
+    "main.js": "/Piyush-Portfolio/static/js/main.01313fbc.js",
+    "static/media/expense-tracker.jpg": "/Piyush-Portfolio/static/media/expense-tracker.7a463fcbc86f64e9dbb3.jpg",
+    "static/media/memories-project.png": "/Piyush-Portfolio/static/media/memories-project.9a4520370bc69cde9dcd.png",
     "static/media/piyush.png": "/Piyush-Portfolio/static/media/piyush.1f2b746165c153c87ea5.png",
     "static/media/about-piyush.jpeg": "/Piyush-Portfolio/static/media/about-piyush.176081f98ac2ea1dfc5a.jpeg",
-    "static/media/Piyush_Pamnani.pdf": "/Piyush-Portfolio/static/media/Piyush_Pamnani.86c157cf333b41072198.pdf",
+    "static/media/Piyush_Pamnani.pdf": "/Piyush-Portfolio/static/media/Piyush_Pamnani.18eb7c4c2c6cc09f17a1.pdf",
     "static/media/Supermarket_Billing_System.jpg": "/Piyush-Portfolio/static/media/Supermarket_Billing_System.c91845ba011e37e40913.jpg",
     "static/media/Lane_Detection_OpenCV.jpg": "/Piyush-Portfolio/static/media/Lane_Detection_OpenCV.15ca832493c3748f74fc.jpg",
     "index.html": "/Piyush-Portfolio/index.html",
     "main.8b2e6057.css.map": "/Piyush-Portfolio/static/css/main.8b2e6057.css.map",
-    "main.841bb6c6.js.map": "/Piyush-Portfolio/static/js/main.841bb6c6.js.map"
+    "main.01313fbc.js.map": "/Piyush-Portfolio/static/js/main.01313fbc.js.map"
   },
   "entrypoints": [
     "static/css/main.8b2e6057.css",
-    "static/js/main.841bb6c6.js"
+    "static/js/main.01313fbc.js"
   ]
 }
