@@ -1,7 +1,8 @@
 import React from "react";
-import IMG1 from "../../assests/money.jpg";
-import IMG2 from "../../assests/Supermarket_Billing_System.jpg";
-import IMG3 from "../../assests/Lane_Detection_OpenCV.jpg";
+import IMG1 from "../../assests/project-images/memories-project.png";
+import IMG2 from "../../assests/project-images/expense-tracker.jpg";
+import IMG3 from "../../assests/project-images/Supermarket_Billing_System.jpg";
+import IMG4 from "../../assests/project-images/Lane_Detection_OpenCV.jpg";
 import "./portfolio.css";
 // import Swiper core and required modules
 import { Pagination } from "swiper";
@@ -17,20 +18,27 @@ const Portfolio = () => {
     {
       id: 1,
       image: IMG1,
+      title: "Memories",
+      github: "https://github.com/PiyushPamnani/memories-project",
+      demo: "https://piyushpamnani.github.io/memories-project/",
+    },
+    {
+      id: 2,
+      image: IMG2,
       title: "Expense Tracker",
       github: "https://github.com/PiyushPamnani/Expense-Tracker",
       demo: "https://piyushpamnani.github.io/Expense-Tracker/",
     },
     {
-      id: 2,
-      image: IMG2,
+      id: 3,
+      image: IMG3,
       title: "Supermarket Billing System using C++",
       github: "https://github.com/PiyushPamnani/Supermarket-Billing-System",
       demo: "",
     },
     {
-      id: 3,
-      image: IMG3,
+      id: 4,
+      image: IMG4,
       title: "Lane Detection using OpenCV",
       github: "https://github.com/PiyushPamnani/Lane-Detection-using-OpenCV",
       demo: "",
