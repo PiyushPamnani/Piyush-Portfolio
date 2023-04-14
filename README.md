@@ -1,3 +1,7 @@
+### PREVIEW
+
+![alt text](./src/assests/preview.png)
+
 ### MY PORTFOLIO
 
 This Portfolio consists of 8 different sections

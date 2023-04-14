@@ -6,7 +6,7 @@ import myImg from "../../assests/piyush.png";
 
 const Header = () => {
   return (
-    <header>
+    <header id="home">
       <div className="container header__container">
         <h5>Hello I'm</h5>
         <h2>Piyush Pamnani</h2>
