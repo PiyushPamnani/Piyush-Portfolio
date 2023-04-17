@@ -14,6 +14,34 @@
   border: 1px solid transparent;
 }
 
+.portfolio_item-less {
+  display: flex;
+  justify-content: flex-start;
+  font-size: 20px;
+  margin: -5px 0px 0px 5px;
+}
+
+.portfolio_item-more {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 20px;
+  margin: -5px 5px 0px 0px;
+}
+
+.show_description {
+  color: var(--color-primary);
+  transition: var(--transition);
+}
+
+.show_description:hover {
+  color: var(--color-white);
+  cursor: pointer;
+}
+
+.portfolio_item-description {
+  margin: 5px;
+}
+
 .portfolio_item-img {
   border-radius: 1.5rem;
   overflow: hidden;
