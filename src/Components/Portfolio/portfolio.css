@@ -28,6 +28,22 @@
   margin: -5px 5px 0px 0px;
 }
 
+.flip-description {
+  transform: rotateY(180deg);
+  transition: all 885ms ease;
+  transform-style: preserve-3d;
+}
+
+.flip_description {
+  transform: rotateY(0deg);
+  transition: all 885ms ease;
+  transform-style: preserve-3d;
+}
+
+.none-flip {
+  transform: rotateY(180deg);
+}
+
 .show_description {
   color: var(--color-primary);
   transition: var(--transition);

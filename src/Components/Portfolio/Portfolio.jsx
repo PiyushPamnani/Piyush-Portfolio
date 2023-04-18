@@ -75,21 +75,27 @@ const Portfolio = () => {
           return (
             <SwiperSlide key={id} className="portfolio_item">
               {isActive ? (
-                <>
-                  <span className="portfolio_item-less">
-                    <span
-                      className="show_description"
-                      onClick={handleDescription}
-                    >
-                      <SlArrowLeftCircle />
+                <div
+                  className={isActive ? "flip-description" : "flip_description"}
+                >
+                  <div className="none-flip">
+                    <span className="portfolio_item-less">
+                      <span
+                        className="show_description"
+                        onClick={handleDescription}
+                      >
+                        <SlArrowLeftCircle />
+                      </span>
                     </span>
-                  </span>
-                  <div className="portfolio_item-description">
-                    {description}
+                    <div className="portfolio_item-description">
+                      {description}
+                    </div>
                   </div>
-                </>
+                </div>
               ) : (
-                <>
+                <div
+                  className={isActive ? "flip-description" : "flip_description"}
+                >
                   <span className="portfolio_item-more">
                     <span
                       className="show_description"
@@ -114,7 +120,7 @@ const Portfolio = () => {
                       GitHub
                     </a>
                   </div>
-                </>
+                </div>
               )}
             </SwiperSlide>
           );
