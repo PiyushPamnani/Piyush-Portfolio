@@ -97,6 +97,7 @@ const Portfolio = () => {
                   className={isActive ? "flip-description" : "flip_description"}
                 >
                   <span className="portfolio_item-more">
+                    <span className="portfolio-description">Description</span>
                     <span
                       className="show_description"
                       onClick={handleDescription}
