@@ -4,9 +4,9 @@ import { Helmet } from "react-helmet";
 import App from "./App";
 import "./index.css";
 
-const title = "Piyush Pamnani Portfolio";
+const title = "Piyush Pamnani";
 const description = "Welcome to Piyush's Portfolio.";
-const keywords = "Piyush Pamnani, Piyush, Pamnani, Portfolio";
+const keywords = "Piyush Pamnani, Piyush, Pamnani";
 const author = "Piyush Pamnani";
 
 ReactDOM.render(

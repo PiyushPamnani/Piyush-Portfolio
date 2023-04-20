@@ -5,9 +5,7 @@ import "./footer.css";
 const Footer = () => {
   return (
     <footer>
-      <a href="#" className="footer__logo">
-        PIYUSH
-      </a>
+      <div className="footer__logo">PIYUSH</div>
 
       <ul className="permalinks">
         <li>

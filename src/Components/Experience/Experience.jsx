@@ -7,7 +7,6 @@ import "./experience.css";
 const Experience = () => {
   const [isActive, setIsActive] = useState(false);
 
-  const toggleModel = () => setIsActive(!isActive);
   return (
     <section id="experience">
       <h5>Journey So far</h5>
@@ -37,14 +36,17 @@ const Experience = () => {
             </article>
           </div>
           <span className="experience_details-more">
-            <span onClick={toggleModel}>View More</span>
+            <span onClick={() => setIsActive(true)}>View More</span>
           </span>
           <div className={`experience_model ${isActive ? "active-model" : ""}`}>
             <div class="experience_model-content">
               <h4 class="experience_model-title">
                 Noted <br /> Accomplishments
               </h4>
-              <i class="experience_model-close" onClick={toggleModel}>
+              <i
+                class="experience_model-close"
+                onClick={() => setIsActive(false)}
+              >
                 <AiOutlineCloseCircle />
               </i>
 

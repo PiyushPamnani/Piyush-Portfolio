@@ -11,10 +11,17 @@ footer a {
 }
 
 .footer__logo {
+  color: var(--color-bg);
   font-size: 2rem;
   font-weight: 500;
   margin-bottom: 2rem;
   display: inline-block;
+  transition: var(--transition);
+}
+
+.footer__logo:hover {
+  cursor: default;
+  color: var(--color-white);
 }
 
 .permalinks {
