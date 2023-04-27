@@ -33,10 +33,10 @@ const About = () => {
           </div>
 
           <p>
-            Hello, I'm Piyush Pamnani, currently pursuing my fourth year
-            engineering in Electronics and Communication from MIT World Peace
-            University Pune. With a never dying self-learning attitude I have
-            made this awesome Portfolio summarising my work done so far.
+            Hello, I am Piyush Pamnani, a final year engineering student in
+            Electronics and Communication from MIT World Peace University Pune.
+            I have created a professional portfolio showcasing my passion for
+            self-learning and my achievements in various projects.
           </p>
 
           <a href="#contact" className="btn btn-primary">

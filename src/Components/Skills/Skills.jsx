@@ -47,6 +47,14 @@ const Skills = () => {
             </article>
             <article className="skills_details">
               <BsPatchCheckFill className="skills_details-icon" />
+              <h4>NodeJS</h4>
+            </article>
+            <article className="skills_details">
+              <BsPatchCheckFill className="skills_details-icon" />
+              <h4>ExpressJS</h4>
+            </article>
+            <article className="skills_details">
+              <BsPatchCheckFill className="skills_details-icon" />
               <h4>JavaScript</h4>
             </article>
           </div>
@@ -59,6 +67,10 @@ const Skills = () => {
             <article className="skills_details">
               <BsPatchCheckFill className="skills_details-icon" />
               <h4>MySQL</h4>
+            </article>
+            <article className="skills_details">
+              <BsPatchCheckFill className="skills_details-icon" />
+              <h4>MongoDB</h4>
             </article>
           </div>
         </div>

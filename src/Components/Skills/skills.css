@@ -28,6 +28,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   row-gap: 2rem;
+  margin-top: 7px;
 }
 
 .skills_details {
