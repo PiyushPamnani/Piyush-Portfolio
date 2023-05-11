@@ -1,8 +1,9 @@
 import React, { useState } from "react";
 import IMG1 from "../../assests/project-images/memories-project.png";
-import IMG2 from "../../assests/project-images/expense-tracker.jpg";
-import IMG3 from "../../assests/project-images/Supermarket_Billing_System.jpg";
-import IMG4 from "../../assests/project-images/Lane_Detection_OpenCV.jpg";
+import IMG2 from "../../assests/project-images/blood-disease-prediction.jpg";
+import IMG3 from "../../assests/project-images/expense-tracker.jpg";
+import IMG4 from "../../assests/project-images/Supermarket_Billing_System.jpg";
+import IMG5 from "../../assests/project-images/Lane_Detection_OpenCV.jpg";
 import "./portfolio.css";
 // import Swiper core and required modules
 import { Pagination } from "swiper";
@@ -32,6 +33,15 @@ const Portfolio = () => {
     {
       id: 2,
       image: IMG2,
+      title: "Blood Disease Prediction",
+      github: "https://github.com/PiyushPamnani/Blood-Disease-Prediction",
+      demo: "https://ml-project-45eu.onrender.com/",
+      description:
+        "Developed a machine learning model aimed at predicting a wide range of blood diseases such as diabetes, anemia, and CHD. Also designed and implemented a user-friendly interface to enable the efficient input of relevant parameters for accurate disease predictions. The main routing of the interface is powered by Flask, while the HTML files are rendered using Flask to deliver a seamless and responsive user experience.",
+    },
+    {
+      id: 3,
+      image: IMG3,
       title: "Expense Tracker",
       github: "https://github.com/PiyushPamnani/Expense-Tracker",
       demo: "https://piyushpamnani.github.io/Expense-Tracker/",
@@ -39,8 +49,8 @@ const Portfolio = () => {
         "Successfully developed a project consisting of three main sections: Income Details, Expense Details, and Main Form. The Main Form allows users to create transactions by inputting details. Automatic updating of the Income and Expense Details chart based on the data entered in the Main Form, providing real-time visualizations. Furthermore, to enhance convenience, I have enabled voice command input using Speechly, allowing users to interact with the application using voice commands",
     },
     {
-      id: 3,
-      image: IMG3,
+      id: 4,
+      image: IMG4,
       title: "Supermarket Billing System using C++",
       github: "https://github.com/PiyushPamnani/Supermarket-Billing-System",
       demo: "",
@@ -48,8 +58,8 @@ const Portfolio = () => {
         "Developed a menu-driven program that offers three options for users to select: administrator, customer, or exit to stop the program. If the user is a new user, they are directed to the administrator part first, where they can add products, set prices for products, delete existing products, and edit product names and prices. In the customer part, users can select products from the menu, specify the quantity for each product, and generate a final bill, which is printed on the console. This program provides a comprehensive solution for managing products and generating bills in an organized and user-friendly manner.",
     },
     {
-      id: 4,
-      image: IMG4,
+      id: 5,
+      image: IMG5,
       title: "Lane Detection using OpenCV",
       github: "https://github.com/PiyushPamnani/Lane-Detection-using-OpenCV",
       demo: "",
