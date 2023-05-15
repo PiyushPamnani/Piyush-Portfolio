@@ -1,6 +1,6 @@
 ### PREVIEW
 
-![alt text](./src/assests/preview.png)
+![Portfolio](https://i.ibb.co/QPpFj29/preview.png)
 
 ### MY PORTFOLIO
 
