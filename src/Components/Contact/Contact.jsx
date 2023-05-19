@@ -1,7 +1,7 @@
 import { React, useRef } from "react";
 import { VscMail } from "react-icons/vsc";
 import { AiOutlineInstagram } from "react-icons/ai";
-import emailjs from "emailjs-com";
+import emailjs from "@emailjs/browser";
 import "./contact.css";
 
 const Contact = () => {
@@ -15,7 +15,7 @@ const Contact = () => {
         "service_ofo4vui",
         "template_f5rkcck",
         form.current,
-        "UnHUMGdWcQlMjkDFK"
+        "Ep_3h0qug5UrBxyr4"
       )
       .then(
         (result) => {
