@@ -5,26 +5,23 @@ import emailjs from "@emailjs/browser";
 import "./contact.css";
 
 const Contact = () => {
+  const serviceId = process.env.REACT_APP_EMAILJS_service_id;
+  const templateId = process.env.REACT_APP_EMAILJS_template_id;
+  const publicKey = process.env.REACT_APP_EMAILJS_public_key;
+
   const form = useRef();
 
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs
-      .sendForm(
-        "service_ofo4vui",
-        "template_f5rkcck",
-        form.current,
-        "Ep_3h0qug5UrBxyr4"
-      )
-      .then(
-        (result) => {
-          console.log(result.text);
-        },
-        (error) => {
-          console.log(error.text);
-        }
-      );
+    emailjs.sendForm(serviceId, templateId, form.current, publicKey).then(
+      (result) => {
+        console.log(result.text);
+      },
+      (error) => {
+        console.log(error.text);
+      }
+    );
 
     e.target.reset();
   };
