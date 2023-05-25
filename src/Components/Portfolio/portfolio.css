@@ -3,6 +3,37 @@
   padding-bottom: 2rem;
 }
 
+.swiper-button {
+  display: flex;
+  position: absolute;
+  top: calc(50% - 12px);
+  z-index: 10;
+  cursor: pointer;
+  color: var(--color-primary);
+  transition: var(--transition);
+}
+
+.swiper-button:hover {
+  color: var(--color-white);
+}
+
+.swiper-button svg {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.image-swiper-button-prev {
+  left: 100px;
+}
+.image-swiper-button-next {
+  right: 100px;
+}
+.swiper-button-disabled {
+  color: var(--color-white);
+  opacity: 0.5;
+  pointer-events: none;
+}
+
 .swiper-pagination-clickable .swiper-pagination-bullet {
   background: var(--color-primary);
 }
@@ -104,5 +135,9 @@
   .portfolio__container {
     grid-template-columns: 1fr;
     gap: 1rem;
+  }
+
+  .swiper-button {
+    display: none;
   }
 }

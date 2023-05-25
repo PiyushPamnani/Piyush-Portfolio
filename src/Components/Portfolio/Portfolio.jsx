@@ -6,8 +6,9 @@ import IMG4 from "../../assests/project-images/Supermarket_Billing_System.jpg";
 import IMG5 from "../../assests/project-images/Lane_Detection_OpenCV.jpg";
 import "./portfolio.css";
 // import Swiper core and required modules
-import { Pagination } from "swiper";
+import { Pagination, Navigation } from "swiper";
 import { SlArrowRightCircle, SlArrowLeftCircle } from "react-icons/sl";
+import { IoIosArrowDropright, IoIosArrowDropleft } from "react-icons/io";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -73,70 +74,87 @@ const Portfolio = () => {
       <h5>My Recent Work</h5>
       <h2>Portfolio</h2>
 
-      <Swiper
-        className="container portfolio__container"
-        modules={[Pagination]}
-        spaceBetween={40}
-        slidesPerView={1}
-        pagination={{ clickable: true }}
-        onSlideChange={() => setIsActive(false)}
-      >
-        {data.map(({ id, image, title, github, demo, description }) => {
-          return (
-            <SwiperSlide key={id} className="portfolio_item">
-              {isActive ? (
-                <div
-                  className={isActive ? "flip-description" : "flip_description"}
-                >
-                  <div className="none-flip">
-                    <span className="portfolio_item-less">
+      <div style={{ position: "relative" }}>
+        <div className="swiper-button image-swiper-button-next">
+          <IoIosArrowDropright />
+        </div>
+        <div className="swiper-button image-swiper-button-prev">
+          <IoIosArrowDropleft />
+        </div>
+        <Swiper
+          className="container portfolio__container"
+          modules={[Pagination, Navigation]}
+          spaceBetween={40}
+          slidesPerView={1}
+          navigation={{
+            nextEl: ".image-swiper-button-next",
+            prevEl: ".image-swiper-button-prev",
+            disabledClass: "swiper-button-disabled",
+          }}
+          pagination={{ clickable: true }}
+          onSlideChange={() => setIsActive(false)}
+        >
+          {data.map(({ id, image, title, github, demo, description }) => {
+            return (
+              <SwiperSlide key={id} className="portfolio_item">
+                {isActive ? (
+                  <div
+                    className={
+                      isActive ? "flip-description" : "flip_description"
+                    }
+                  >
+                    <div className="none-flip">
+                      <span className="portfolio_item-less">
+                        <span
+                          className="show_description"
+                          onClick={handleDescription}
+                        >
+                          <SlArrowLeftCircle />
+                        </span>
+                      </span>
+                      <div className="portfolio_item-description">
+                        {description}
+                      </div>
+                    </div>
+                  </div>
+                ) : (
+                  <div
+                    className={
+                      isActive ? "flip-description" : "flip_description"
+                    }
+                  >
+                    <span className="portfolio_item-more">
+                      <span className="portfolio-description">Description</span>
                       <span
                         className="show_description"
                         onClick={handleDescription}
                       >
-                        <SlArrowLeftCircle />
+                        <SlArrowRightCircle />
                       </span>
                     </span>
-                    <div className="portfolio_item-description">
-                      {description}
+                    <div className="portfolio_item-img">
+                      <img src={image} height="285px" alt={title} />
+                    </div>
+                    <h3>{title}</h3>
+                    <div className="portfolio_item-btn">
+                      <a
+                        href={demo}
+                        className={demo === "" ? "demoNone" : "btn btn-primary"}
+                        target="_blank"
+                      >
+                        Live Demo
+                      </a>
+                      <a href={github} className="btn" target="_blank">
+                        GitHub
+                      </a>
                     </div>
                   </div>
-                </div>
-              ) : (
-                <div
-                  className={isActive ? "flip-description" : "flip_description"}
-                >
-                  <span className="portfolio_item-more">
-                    <span className="portfolio-description">Description</span>
-                    <span
-                      className="show_description"
-                      onClick={handleDescription}
-                    >
-                      <SlArrowRightCircle />
-                    </span>
-                  </span>
-                  <div className="portfolio_item-img">
-                    <img src={image} height="285px" alt={title} />
-                  </div>
-                  <h3>{title}</h3>
-                  <div className="portfolio_item-btn">
-                    <a
-                      href={demo}
-                      className={demo === "" ? "demoNone" : "btn btn-primary"}
-                      target="_blank"
-                    >
-                      Live Demo
-                    </a>
-                    <a href={github} className="btn" target="_blank">
-                      GitHub
-                    </a>
-                  </div>
-                </div>
-              )}
-            </SwiperSlide>
-          );
-        })}
-      </Swiper>
+                )}
+              </SwiperSlide>
+            );
+          })}
+        </Swiper>
+      </div>
     </section>
   );
 };
