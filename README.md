@@ -8,32 +8,32 @@ This Portfolio consists of 8 different sections
 
 ### 1. Header
 
-Header section consists links of github, linkedin and leetcode with a photo of me.
+The header section includes my professional photo and links to my GitHub, LinkedIn and LeetCode profiles.
 
 ### 2. Navigation bar
 
-Click on any icon in navigation bar and you will be thrown to that particular section
+The navigation bar allows easy access to different sections of the website. Simply click on an icon to be directed to the corresponding section.
 
 ### 3. About Me
 
-This section consists of my experience and projects completed
+This section provides an overview of me and my experience. It also highlights the projects I have successfully completed.
 
 ### 4. Skills
 
-This section consists of my skills
+The skills section showcases my proficiency in various technical and professional skills.
 
 ### 5. Experience
 
-This section consists of my experience(s)
+In the experience section, you can find details about my relevant work history and professional accomplishments.
 
 ### 6. Portfolio
 
-This section consists of the work I have done so far
+The portfolio section showcases a collection of my completed projects, demonstrating my skills and expertise.
 
 ### 7. Contact
 
-Contact Section where you can send me an email or dm me on instagram.
+The contact section offers multiple ways to reach out to me. You can send me an email or reach me through direct messaging on Instagram.
 
 ### 8. Footer
 
-Footer section consisting of above all section links
+The footer section contains links to all the above-mentioned sections for easy navigation throughout the website.
