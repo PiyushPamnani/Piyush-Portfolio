@@ -10,7 +10,7 @@ const Navbar = () => {
 
   useEffect(() => {
     const handleScroll = () => {
-      const scrollTop = window.pageYOffset + 6;
+      const scrollTop = window.pageYOffset + 35;
       const homeSection = document.getElementById("home");
       const aboutSection = document.getElementById("about");
       const skillsSection = document.getElementById("skills");

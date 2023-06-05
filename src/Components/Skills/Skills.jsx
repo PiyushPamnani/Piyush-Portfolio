@@ -81,11 +81,11 @@ const Skills = () => {
           <div className="skills_content">
             <article className="skills_details">
               <BsPatchCheckFill className="skills_details-icon" />
-              <h4>DSA</h4>
+              <h4>Data Structures and Algorithms</h4>
             </article>
             <article className="skills_details">
               <BsPatchCheckFill className="skills_details-icon" />
-              <h4>OOP</h4>
+              <h4>Object Oriented Programming</h4>
             </article>
           </div>
         </div>

@@ -42,6 +42,7 @@
 }
 
 .experience_details-icon {
+  flex: none;
   margin-top: 6px;
   color: var(--color-primary);
 }
