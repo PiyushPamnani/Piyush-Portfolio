@@ -1,6 +1,7 @@
-import { React, useRef } from "react";
+import React, { useRef } from "react";
 import { VscMail } from "react-icons/vsc";
 import { AiOutlineInstagram } from "react-icons/ai";
+import { BsWhatsapp } from "react-icons/bs";
 import emailjs from "@emailjs/browser";
 import "./contact.css";
 
@@ -42,6 +43,16 @@ const Contact = () => {
           {/* ======================================== */}
 
           <article className="contact_option">
+            <BsWhatsapp className="contact_option-icon" />
+            <h4>WhatsApp</h4>
+            <h5>+91-7509245660</h5>
+            <a href="https://wa.me/+917509245660" target="_blank">
+              Click Here
+            </a>
+          </article>
+          {/* ======================================== */}
+
+          <article className="contact_option instagram">
             <AiOutlineInstagram className="contact_option-icon" />
             <h4>Instagram</h4>
             <h5>@piyush.pamnani</h5>
