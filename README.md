@@ -1,6 +1,6 @@
 ### PREVIEW
 
-![Portfolio](https://i.ibb.co/QPpFj29/preview.png)
+![Portfolio](https://i.ibb.co/PhPDJ5T/Screenshot-208.png)
 
 ### MY PORTFOLIO
 
