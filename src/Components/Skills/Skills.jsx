@@ -81,6 +81,14 @@ const Skills = () => {
           <div className="skills_content">
             <article className="skills_details">
               <BsPatchCheckFill className="skills_details-icon" />
+              <h4>Git</h4>
+            </article>
+            <article className="skills_details">
+              <BsPatchCheckFill className="skills_details-icon" />
+              <h4>GitHub</h4>
+            </article>
+            <article className="skills_details">
+              <BsPatchCheckFill className="skills_details-icon" />
               <h4>Data Structures and Algorithms</h4>
             </article>
             <article className="skills_details">
