@@ -6,7 +6,7 @@ const SocialMediaLinks = () => {
   return (
     <div className="social_links">
       <a
-        href="https://www.linkedin.com/in/piyush-pamnani-199766167/"
+        href="https://www.linkedin.com/in/piyushpamnani2001/"
         target="_blank"
       >
         <BsLinkedin />
