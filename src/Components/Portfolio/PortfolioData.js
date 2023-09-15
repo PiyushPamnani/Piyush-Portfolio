@@ -2,10 +2,11 @@ import IMG1 from "../../assests/project-images/memories-project.png";
 import IMG2 from "../../assests/project-images/hey-prompts.png";
 import IMG3 from "../../assests/project-images/blood-disease-prediction.jpg";
 import IMG4 from "../../assests/project-images/You-Tube-Clone.png";
-import IMG5 from "../../assests/project-images/expense-tracker.jpg";
-import IMG6 from "../../assests/project-images/job-scout.png";
-import IMG7 from "../../assests/project-images/Supermarket_Billing_System.jpg";
-import IMG8 from "../../assests/project-images/Lane_Detection_OpenCV.jpg";
+import IMG5 from "../../assests/project-images/nike-landing-page.png";
+import IMG6 from "../../assests/project-images/expense-tracker.jpg";
+import IMG7 from "../../assests/project-images/job-scout.png";
+import IMG8 from "../../assests/project-images/Supermarket_Billing_System.jpg";
+import IMG9 from "../../assests/project-images/Lane_Detection_OpenCV.jpg";
 
 export const data = [
   {
@@ -47,6 +48,15 @@ export const data = [
   {
     id: 5,
     image: IMG5,
+    title: "Nike Landing Page",
+    github: "https://github.com/PiyushPamnani/tailwind-css",
+    demo: "https://nike-nine-sable.vercel.app/",
+    description:
+      "The Nike Landing Page is a captivating web application that introduces the Nike brand through an eye-catching hero section. It showcases popular Nike shoes with prices and ratings, highlights the brand's commitment to quality and values and presents Nike's services in a visually appealing manner. Special offers and customer reviews add to the brand's appeal, while a subscription option keeps users connected. The footer provides contact information and essential links, making it a concise yet engaging representation of Nike's identity and offerings.",
+  },
+  {
+    id: 6,
+    image: IMG6,
     title: "Expense Tracker",
     github: "https://github.com/PiyushPamnani/Expense-Tracker",
     demo: "https://piyushpamnani.github.io/Expense-Tracker/",
@@ -54,8 +64,8 @@ export const data = [
       "Successfully developed a project consisting of three main sections: Income Details, Expense Details and Main Form. The Main Form allows users to create transactions by inputting details. Automatic updating of the Income and Expense Details chart based on the data entered in the Main Form, providing real-time visualizations. Furthermore, to enhance convenience, I have enabled voice command input using Speechly, allowing users to interact with the application using voice commands",
   },
   {
-    id: 6,
-    image: IMG6,
+    id: 7,
+    image: IMG7,
     title: "Job-Scout",
     github: "https://github.com/PiyushPamnani/job-scout",
     demo: "https://expo.dev/@piyushpamnani/React-Native-Project/",
@@ -63,8 +73,8 @@ export const data = [
       "I have developed a job search application that offers two main sections: Popular Jobs and Nearby Jobs. The application allows users to search for jobs based on their preferences, including full-time, part-time or contractor basis. Users can access detailed job information, including job descriptions, required qualifications and responsibilities. While the core functionalities have been successfully implemented, there are ongoing efforts to incorporate additional features.",
   },
   {
-    id: 7,
-    image: IMG7,
+    id: 8,
+    image: IMG8,
     title: "Supermarket Billing System using C++",
     github: "https://github.com/PiyushPamnani/Supermarket-Billing-System",
     demo: "",
@@ -72,8 +82,8 @@ export const data = [
       "Developed a menu-driven program that offers three options for users to select: administrator, customer or exit to stop the program. If the user is a new user, they are directed to the administrator part first, where they can add products, set prices for products, delete existing products and edit product names and prices. In the customer part, users can select products from the menu, specify the quantity for each product and generate a final bill which is printed on the console. This program provides a comprehensive solution for managing products and generating bills in an organized and user-friendly manner.",
   },
   {
-    id: 8,
-    image: IMG8,
+    id: 9,
+    image: IMG9,
     title: "Lane Detection using OpenCV",
     github: "https://github.com/PiyushPamnani/Lane-Detection-using-OpenCV",
     demo: "",
