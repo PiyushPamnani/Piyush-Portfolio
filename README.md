@@ -1,8 +1,8 @@
-### PREVIEW
+## PREVIEW
 
 ![Portfolio](https://i.ibb.co/PhPDJ5T/Screenshot-208.png)
 
-### MY PORTFOLIO
+# MY PORTFOLIO
 
 This Portfolio consists of 8 different sections
 
