@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Piyush-Portfolio/static/css/main.b46f715c.css",
-    "main.js": "/Piyush-Portfolio/static/js/main.9e7bd28c.js",
+    "main.js": "/Piyush-Portfolio/static/js/main.523d9e9d.js",
     "static/media/hey-prompts.png": "/Piyush-Portfolio/static/media/hey-prompts.67af44d7c22700ea7902.png",
     "static/media/expense-tracker.jpg": "/Piyush-Portfolio/static/media/expense-tracker.7a463fcbc86f64e9dbb3.jpg",
     "static/media/You-Tube-Clone.png": "/Piyush-Portfolio/static/media/You-Tube-Clone.d7f190bb27ceab1397e2.png",
@@ -10,16 +10,16 @@
     "static/media/about-piyush.jpeg": "/Piyush-Portfolio/static/media/about-piyush.176081f98ac2ea1dfc5a.jpeg",
     "static/media/nike-landing-page.png": "/Piyush-Portfolio/static/media/nike-landing-page.fb84ace95bb919daa678.png",
     "static/media/job-scout.png": "/Piyush-Portfolio/static/media/job-scout.602c2a157988060cf9ae.png",
-    "static/media/Piyush_Pamnani.pdf": "/Piyush-Portfolio/static/media/Piyush_Pamnani.0309f7b99dc6154f962d.pdf",
+    "static/media/Piyush_Pamnani.pdf": "/Piyush-Portfolio/static/media/Piyush_Pamnani.1376408727de270ca545.pdf",
     "static/media/blood-disease-prediction.jpg": "/Piyush-Portfolio/static/media/blood-disease-prediction.c11215feb46d0834e5ff.jpg",
     "static/media/Supermarket_Billing_System.jpg": "/Piyush-Portfolio/static/media/Supermarket_Billing_System.c91845ba011e37e40913.jpg",
     "static/media/Lane_Detection_OpenCV.jpg": "/Piyush-Portfolio/static/media/Lane_Detection_OpenCV.15ca832493c3748f74fc.jpg",
     "index.html": "/Piyush-Portfolio/index.html",
     "main.b46f715c.css.map": "/Piyush-Portfolio/static/css/main.b46f715c.css.map",
-    "main.9e7bd28c.js.map": "/Piyush-Portfolio/static/js/main.9e7bd28c.js.map"
+    "main.523d9e9d.js.map": "/Piyush-Portfolio/static/js/main.523d9e9d.js.map"
   },
   "entrypoints": [
     "static/css/main.b46f715c.css",
-    "static/js/main.9e7bd28c.js"
+    "static/js/main.523d9e9d.js"
   ]
 }
