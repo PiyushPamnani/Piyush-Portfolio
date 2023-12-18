@@ -35,10 +35,7 @@ const Footer = () => {
         <a href="https://github.com/PiyushPamnani" target="_blank">
           <BsGithub />
         </a>
-        <a
-          href="https://www.linkedin.com/in/piyush-pamnani-199766167/"
-          target="_blank"
-        >
+        <a href="https://www.linkedin.com/in/piyushpamnani2001" target="_blank">
           <BsLinkedin />
         </a>
         <a href="https://twitter.com/piyushpamnani22" target="_blank">
