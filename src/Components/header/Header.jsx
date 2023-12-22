@@ -2,7 +2,7 @@ import React from "react";
 import "./header.css";
 import Download_Buttons from "./Download_Buttons";
 import SocialMediaLinks from "./SocialMediaLinks";
-import myImg from "../../assests/piyush.png";
+import myImg from "../../assets/piyush.png";
 
 const Header = () => {
   return (

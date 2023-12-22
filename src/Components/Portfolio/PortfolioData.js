@@ -1,12 +1,12 @@
-import IMG1 from "../../assests/project-images/memories-project.png";
-import IMG2 from "../../assests/project-images/hey-prompts.png";
-import IMG3 from "../../assests/project-images/blood-disease-prediction.jpg";
-import IMG4 from "../../assests/project-images/You-Tube-Clone.png";
-import IMG5 from "../../assests/project-images/nike-landing-page.png";
-import IMG6 from "../../assests/project-images/expense-tracker.jpg";
-import IMG7 from "../../assests/project-images/job-scout.png";
-import IMG8 from "../../assests/project-images/Supermarket_Billing_System.jpg";
-import IMG9 from "../../assests/project-images/Lane_Detection_OpenCV.jpg";
+import IMG1 from "../../assets/project-images/memories-project.png";
+import IMG2 from "../../assets/project-images/hey-prompts.png";
+import IMG3 from "../../assets/project-images/blood-disease-prediction.jpg";
+import IMG4 from "../../assets/project-images/You-Tube-Clone.png";
+import IMG5 from "../../assets/project-images/nike-landing-page.png";
+import IMG6 from "../../assets/project-images/expense-tracker.jpg";
+import IMG7 from "../../assets/project-images/job-scout.png";
+import IMG8 from "../../assets/project-images/Supermarket_Billing_System.jpg";
+import IMG9 from "../../assets/project-images/Lane_Detection_OpenCV.jpg";
 
 export const data = [
   {
