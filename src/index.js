@@ -6,7 +6,8 @@ import "./index.css";
 
 const title = "Piyush Pamnani";
 const description = "Welcome to Piyush's Portfolio.";
-const keywords = "Piyush Pamnani, Piyush, Pamnani";
+const keywords =
+  "Piyush Pamnani, Piyush, Pamnani, piyush, pamnani, piyush pamnani";
 const author = "Piyush Pamnani";
 
 ReactDOM.render(

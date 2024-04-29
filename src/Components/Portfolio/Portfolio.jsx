@@ -81,7 +81,11 @@ const Portfolio = () => {
                       </span>
                     </span>
                     <div className="portfolio_item-img">
-                      <img src={image} height="285px" alt={title} />
+                      <img
+                        src={image}
+                        height="285px"
+                        alt="piyush-portfolio-imgs"
+                      />
                     </div>
                     <h3>{title}</h3>
                     <div className="portfolio_item-btn">

@@ -8,9 +8,29 @@ const Experience = () => {
 
   const experiences = [
     {
+      title: "App Developer Intern",
+      company: "Jio",
+      duration: "March 2024 - Present",
+      skills: ["React-Native", "ReactJS"],
+      details: ["Gaining hands-on experience with React Native."],
+    },
+    {
+      title: "Web Developer Intern",
+      company: "Evolve Webinfo Pvt. Ltd.",
+      duration: "December 2023 - March 2024",
+      skills: ["JavaScript", "PHP", "MySQL", "Wordpress"],
+      details: [
+        `Collaborated effectively with the development team to enhance the company's software solutions.`,
+        `Designed visually appealing reports and efficiently managed data within MySQL databases.`,
+        `Developed user interfaces using PHP`,
+        `Implemented download functionality and report redirection, alongside JavaScript-powered calculations.`,
+        `Designed and implemented Custom WordPress Themes and Plugins.`,
+      ],
+    },
+    {
       title: "Full Stack Developer Intern",
       company: "Digilytics Systems",
-      duration: "July 2, 2022 - January 7, 2023",
+      duration: "July 2022 - January 2023",
       skills: ["ReactJS", "Python", "Firebase", "Flask"],
       details: [
         "Edited and added new features to an existing website.",
