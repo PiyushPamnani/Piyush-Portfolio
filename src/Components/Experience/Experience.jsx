@@ -8,11 +8,15 @@ const Experience = () => {
 
   const experiences = [
     {
-      title: "App Developer Intern",
-      company: "Jio",
-      duration: "March 2024 - Present",
-      skills: ["React-Native", "ReactJS"],
-      details: ["Gaining hands-on experience with React Native."],
+      title: "Software Developer Intern",
+      company: "Jio Platforms Limited",
+      duration: "March 2024 - June-2024",
+      skills: ["React-Native", "ReactJS", "Firebase"],
+      details: [
+        `Enhanced web and mobile applications using React.js, Firebase and React-Native.`,
+        `Added a download function that arranges pre-captured screen images into a PDF, capable of downloading large files within 5-10 seconds.`,
+        `Implemented an active floating navigation bar in the mobile app that hides on scroll up and appears on scroll down.`,
+      ],
     },
     {
       title: "Web Developer Intern",
@@ -68,20 +72,20 @@ const Experience = () => {
                 isActive === index ? "active-model" : ""
               }`}
             >
-              <div class="experience_model-content">
-                <h4 class="experience_model-title">
+              <div className="experience_model-content">
+                <h4 className="experience_model-title">
                   Noted <br /> Accomplishments
                 </h4>
                 <i
-                  class="experience_model-close"
+                  className="experience_model-close"
                   onClick={() => setIsActive(null)}
                 >
                   <AiOutlineCloseCircle />
                 </i>
 
-                <ul class="experience_model-points">
+                <ul className="experience_model-points">
                   {exp.details.map((detail, detailIndex) => (
-                    <li class="experience_model-point" key={detailIndex}>
+                    <li className="experience_model-point" key={detailIndex}>
                       <BsPatchCheckFill className="experience_details-icon" />
                       <p>{detail}</p>
                     </li>
