@@ -14,8 +14,8 @@ export const data = [
     id: 1,
     image: IMG1,
     title: "Collab Artist",
-    github: "https://github.com/Devesh007suii/TestRepo",
-    demo: "https://collabartist-devesh007suiis-projects.vercel.app/",
+    github: "https://github.com/PiyushPamnani/Collab-Artist",
+    demo: "https://insane-beats.netlify.app/",
     description:
       "A MERN Stack application built by a team of two where users can interact with a visually appealing frontend, listen to beats, and provide feedback on the uploaded beats. Utilized the useLocation hook from react-router-dom to check the URL for a specific variable, enabling admin functionalities such as uploading or deleting beats and modifying questions in the review form. This project showcased effective collaboration and advanced use of React, MongoDB, Express, and Node.js.",
   },

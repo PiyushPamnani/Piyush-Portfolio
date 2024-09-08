@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import React, { useState, useRef } from "react";
 import { VscMail } from "react-icons/vsc";
 import { AiOutlineInstagram } from "react-icons/ai";
 import { BsWhatsapp } from "react-icons/bs";
@@ -6,6 +6,7 @@ import emailjs from "@emailjs/browser";
 import "./contact.css";
 
 const Contact = () => {
+  const [success, setSuccess] = useState(false);
   const serviceId = process.env.REACT_APP_EMAILJS_service_id;
   const templateId = process.env.REACT_APP_EMAILJS_template_id;
   const publicKey = process.env.REACT_APP_EMAILJS_public_key;
@@ -25,6 +26,10 @@ const Contact = () => {
     );
 
     e.target.reset();
+    setSuccess(true);
+    setTimeout(() => {
+      setSuccess(false);
+    }, 3000);
   };
 
   return (
@@ -46,7 +51,10 @@ const Contact = () => {
             <BsWhatsapp className="contact_option-icon" />
             <h4>WhatsApp</h4>
             <h5>+91-7509245660</h5>
-            <a href="https://wa.me/+917509245660" target="_blank">
+            <a
+              href="https://web.whatsapp.com/send/?phone=7509245660"
+              target="_blank"
+            >
               Click Here
             </a>
           </article>
@@ -85,6 +93,9 @@ const Contact = () => {
           <button type="submit" className="btn btn-primary">
             Send Message
           </button>
+          {success && (
+            <p style={{ color: "#00ff00" }}>Message Sent Successfully</p>
+          )}
         </form>
       </div>
     </section>

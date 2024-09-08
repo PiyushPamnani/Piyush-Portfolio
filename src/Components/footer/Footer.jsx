@@ -38,13 +38,13 @@ const Footer = () => {
         <a href="https://www.linkedin.com/in/piyushpamnani2001" target="_blank">
           <BsLinkedin />
         </a>
-        <a href="https://twitter.com/piyushpamnani22" target="_blank">
+        <a href="https://twitter.com/Piyush2P" target="_blank">
           <BsTwitter />
         </a>
       </div>
 
       <div className="footer_copyright">
-        <small>&copy; Piyush_Pamnani | All Rights Reserved | 2023</small>
+        <small>&copy; Piyush_Pamnani | All Rights Reserved | 2024</small>
       </div>
     </footer>
   );
