@@ -1,4 +1,6 @@
-import React, { useState } from "react";
+"use client";
+
+import { useState } from "react";
 import "./portfolio.css";
 import { data } from "./PortfolioData";
 // import Swiper core and required modules

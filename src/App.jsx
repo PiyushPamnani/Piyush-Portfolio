@@ -1,4 +1,3 @@
-import React from "react";
 import Header from "./Components/header/Header.jsx";
 import Navbar from "./Components/Navbar/Navbar.jsx";
 import Arrow from "./Components/Up_arrow/Arrow.jsx";

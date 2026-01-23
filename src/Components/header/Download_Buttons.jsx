@@ -1,4 +1,3 @@
-import React from "react";
 import CV from "../../assets/Piyush_Pamnani.pdf";
 
 const DownloadButtons = () => {

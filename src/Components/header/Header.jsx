@@ -1,4 +1,3 @@
-import React from "react";
 import "./header.css";
 import DownloadButtons from "./Download_Buttons";
 import SocialMediaLinks from "./SocialMediaLinks";

@@ -1,4 +1,3 @@
-import React from "react";
 import ME from "../../assets/about-piyush.jpeg";
 import { FiAward } from "react-icons/fi";
 import { VscFolderLibrary } from "react-icons/vsc";

@@ -1,4 +1,6 @@
-import React, { useState, useRef } from "react";
+"use client";
+
+import { useState, useRef } from "react";
 import { VscMail } from "react-icons/vsc";
 import { AiOutlineInstagram } from "react-icons/ai";
 import { BsWhatsapp } from "react-icons/bs";

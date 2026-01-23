@@ -1,4 +1,3 @@
-import React from "react";
 import { BsLinkedin, BsGithub, BsStackOverflow } from "react-icons/bs";
 
 const SocialMediaLinks = () => {

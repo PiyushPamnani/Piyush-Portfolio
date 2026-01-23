@@ -1,4 +1,3 @@
-import React from "react";
 import { BsTwitter, BsInstagram, BsGithub, BsLinkedin } from "react-icons/bs";
 import "./footer.css";
 
@@ -56,7 +55,7 @@ const Footer = () => {
       </div>
 
       <div className="footer_copyright">
-        <small>&copy; Piyush_Pamnani | All Rights Reserved | 2024</small>
+        <small>&copy; Piyush Pamnani | All Rights Reserved | 2026</small>
       </div>
     </footer>
   );
