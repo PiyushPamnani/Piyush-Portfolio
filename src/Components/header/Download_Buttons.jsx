@@ -1,7 +1,6 @@
-import React from "react";
 import CV from "../../assets/Piyush_Pamnani.pdf";
 
-const Download_Buttons = () => {
+const DownloadButtons = () => {
   return (
     <div className="download_btns">
       <a href={CV} download="Piyush_Pamnani.pdf" className="btn">
@@ -14,4 +13,4 @@ const Download_Buttons = () => {
   );
 };
 
-export default Download_Buttons;
+export default DownloadButtons;

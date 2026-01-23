@@ -1,4 +1,3 @@
-import React from "react";
 import { BsTwitter, BsInstagram, BsGithub, BsLinkedin } from "react-icons/bs";
 import "./footer.css";
 
@@ -9,7 +8,7 @@ const Footer = () => {
 
       <ul className="permalinks">
         <li>
-          <a href="#">Home</a>
+          <a href="/">Home</a>
         </li>
         <li>
           <a href="#about">About</a>
@@ -29,22 +28,34 @@ const Footer = () => {
       </ul>
 
       <div className="footer_socials">
-        <a href="https://instagram.com/piyush.pamnani" target="_blank">
+        <a
+          href="https://instagram.com/piyush.pamnani"
+          target="_blank"
+          rel="noreferrer"
+        >
           <BsInstagram />
         </a>
-        <a href="https://github.com/PiyushPamnani" target="_blank">
+        <a
+          href="https://github.com/PiyushPamnani"
+          target="_blank"
+          rel="noreferrer"
+        >
           <BsGithub />
         </a>
-        <a href="https://www.linkedin.com/in/piyushpamnani2001" target="_blank">
+        <a
+          href="https://www.linkedin.com/in/piyushpamnani2001"
+          target="_blank"
+          rel="noreferrer"
+        >
           <BsLinkedin />
         </a>
-        <a href="https://twitter.com/Piyush2P" target="_blank">
+        <a href="https://twitter.com/Piyush2P" target="_blank" rel="noreferrer">
           <BsTwitter />
         </a>
       </div>
 
       <div className="footer_copyright">
-        <small>&copy; Piyush_Pamnani | All Rights Reserved | 2024</small>
+        <small>&copy; Piyush Pamnani | All Rights Reserved | 2026</small>
       </div>
     </footer>
   );

@@ -1,8 +1,10 @@
-import React, { useState } from "react";
+"use client";
+
+import { useState } from "react";
 import "./portfolio.css";
 import { data } from "./PortfolioData";
 // import Swiper core and required modules
-import { Pagination, Navigation } from "swiper";
+import { Pagination, Navigation } from "swiper/modules";
 import { SlArrowRightCircle, SlArrowLeftCircle } from "react-icons/sl";
 import { IoIosArrowDropright, IoIosArrowDropleft } from "react-icons/io";
 
@@ -93,10 +95,16 @@ const Portfolio = () => {
                         href={demo}
                         className={demo === "" ? "demoNone" : "btn btn-primary"}
                         target="_blank"
+                        rel="noreferrer"
                       >
                         Live Demo
                       </a>
-                      <a href={github} className="btn" target="_blank">
+                      <a
+                        href={github}
+                        className="btn"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
                         GitHub
                       </a>
                     </div>

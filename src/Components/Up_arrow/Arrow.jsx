@@ -1,4 +1,4 @@
-import { React, useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import "./arrow.css";
 import { BsArrowUpSquareFill } from "react-icons/bs";
 
@@ -21,7 +21,7 @@ const Arrow = () => {
 
   return (
     <div>
-      <a href="#" className={`${nameClass} active`}>
+      <a href="/" className={`${nameClass} active`}>
         <i>
           <BsArrowUpSquareFill />
         </i>

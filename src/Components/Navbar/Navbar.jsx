@@ -1,4 +1,6 @@
-import { React, useState, useEffect } from "react";
+"use client";
+
+import { useState, useEffect } from "react";
 import { AiOutlineHome, AiOutlineUser, AiOutlineMessage } from "react-icons/ai";
 import { TbBook2 } from "react-icons/tb";
 import { SiDatabricks } from "react-icons/si";
@@ -58,7 +60,7 @@ const Navbar = () => {
   return (
     <nav>
       <a
-        href="#"
+        href="/"
         onClick={() => setActiveNav("#")}
         className={activeNav === "#" ? "active" : ""}
       >

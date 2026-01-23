@@ -1,4 +1,6 @@
-import React, { useState } from "react";
+"use client";
+
+import { useState } from "react";
 import { BsPatchCheckFill } from "react-icons/bs";
 import { AiOutlineCloseCircle } from "react-icons/ai";
 import "./experience.css";

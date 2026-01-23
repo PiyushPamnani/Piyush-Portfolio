@@ -1,4 +1,3 @@
-import React from "react";
 import ME from "../../assets/about-piyush.jpeg";
 import { FiAward } from "react-icons/fi";
 import { VscFolderLibrary } from "react-icons/vsc";
@@ -22,7 +21,7 @@ const About = () => {
             <article className="about_card">
               <FiAward className="about_icon" />
               <h5>Experience</h5>
-              <small>Fresher</small>
+              <small>1+ year</small>
             </article>
 
             <article className="about_card">
