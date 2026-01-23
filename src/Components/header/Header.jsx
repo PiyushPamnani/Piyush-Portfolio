@@ -1,6 +1,6 @@
 import React from "react";
 import "./header.css";
-import Download_Buttons from "./Download_Buttons";
+import DownloadButtons from "./Download_Buttons";
 import SocialMediaLinks from "./SocialMediaLinks";
 import myImg from "../../assets/piyush.png";
 
@@ -10,8 +10,8 @@ const Header = () => {
       <div className="container header__container">
         <h5>Hello, I'm</h5>
         <h2>Piyush Pamnani</h2>
-        <h5 className="text-light">Aspiring Software Engineer</h5>
-        <Download_Buttons />
+        <h5 className="text-light">Software Developer</h5>
+        <DownloadButtons />
         <SocialMediaLinks />
         <div className="myImg">
           <img src={myImg} alt="piyush" />

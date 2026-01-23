@@ -54,6 +54,7 @@ const Contact = () => {
             <a
               href="https://web.whatsapp.com/send/?phone=7509245660"
               target="_blank"
+              rel="noreferrer"
             >
               Click Here
             </a>
@@ -64,7 +65,11 @@ const Contact = () => {
             <AiOutlineInstagram className="contact_option-icon" />
             <h4>Instagram</h4>
             <h5>@piyush.pamnani</h5>
-            <a href="https://ig.me/m/piyush.pamnani" target="_blank">
+            <a
+              href="https://ig.me/m/piyush.pamnani"
+              target="_blank"
+              rel="noreferrer"
+            >
               Click Here
             </a>
           </article>

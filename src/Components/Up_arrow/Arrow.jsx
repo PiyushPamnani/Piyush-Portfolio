@@ -21,7 +21,7 @@ const Arrow = () => {
 
   return (
     <div>
-      <a href="#" className={`${nameClass} active`}>
+      <a href="/" className={`${nameClass} active`}>
         <i>
           <BsArrowUpSquareFill />
         </i>
