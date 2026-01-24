@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Piyush-Portfolio/static/css/main.ff2db983.css",
-    "main.js": "/Piyush-Portfolio/static/js/main.74cf3cbd.js",
+    "main.css": "/Piyush-Portfolio/static/css/main.cd433e2d.css",
+    "main.js": "/Piyush-Portfolio/static/js/main.cc9e0349.js",
     "static/media/collab-artist.png": "/Piyush-Portfolio/static/media/collab-artist.e8deb90b7443feb21184.png",
     "static/media/hey-prompts.png": "/Piyush-Portfolio/static/media/hey-prompts.67af44d7c22700ea7902.png",
     "static/media/expense-tracker.jpg": "/Piyush-Portfolio/static/media/expense-tracker.7a463fcbc86f64e9dbb3.jpg",
@@ -9,18 +9,24 @@
     "static/media/piyush.png": "/Piyush-Portfolio/static/media/piyush.1f2b746165c153c87ea5.png",
     "static/media/memories-project.png": "/Piyush-Portfolio/static/media/memories-project.d881d2fbc23319a43ef8.png",
     "static/media/about-piyush.jpeg": "/Piyush-Portfolio/static/media/about-piyush.176081f98ac2ea1dfc5a.jpeg",
+    "static/media/jio.png": "/Piyush-Portfolio/static/media/jio.00a14a6a0832176f4a3f.png",
     "static/media/nike-landing-page.png": "/Piyush-Portfolio/static/media/nike-landing-page.fb84ace95bb919daa678.png",
-    "static/media/Piyush_Pamnani.pdf": "/Piyush-Portfolio/static/media/Piyush_Pamnani.5879a119b61fc42ecd81.pdf",
+    "static/media/Piyush_Pamnani.pdf": "/Piyush-Portfolio/static/media/Piyush_Pamnani.a31c9932deb0224b6bff.pdf",
     "static/media/job-scout.png": "/Piyush-Portfolio/static/media/job-scout.602c2a157988060cf9ae.png",
     "static/media/blood-disease-prediction.jpg": "/Piyush-Portfolio/static/media/blood-disease-prediction.c11215feb46d0834e5ff.jpg",
     "static/media/Supermarket_Billing_System.jpg": "/Piyush-Portfolio/static/media/Supermarket_Billing_System.c91845ba011e37e40913.jpg",
+    "static/media/programming.avif": "/Piyush-Portfolio/static/media/programming.1816315cf44d95fbaa0f.avif",
+    "static/media/confidential.webp": "/Piyush-Portfolio/static/media/confidential.e3137248a7a66cadfcb9.webp",
     "static/media/Lane_Detection_OpenCV.jpg": "/Piyush-Portfolio/static/media/Lane_Detection_OpenCV.15ca832493c3748f74fc.jpg",
+    "static/media/web-languages.avif": "/Piyush-Portfolio/static/media/web-languages.c48ed7c95fe91c61a4a0.avif",
+    "static/media/dbms.avif": "/Piyush-Portfolio/static/media/dbms.ba8f8eecab6c40d6a1cb.avif",
+    "static/media/testing-tools.avif": "/Piyush-Portfolio/static/media/testing-tools.1289ce3b09d0b2c2ced2.avif",
     "index.html": "/Piyush-Portfolio/index.html",
-    "main.ff2db983.css.map": "/Piyush-Portfolio/static/css/main.ff2db983.css.map",
-    "main.74cf3cbd.js.map": "/Piyush-Portfolio/static/js/main.74cf3cbd.js.map"
+    "main.cd433e2d.css.map": "/Piyush-Portfolio/static/css/main.cd433e2d.css.map",
+    "main.cc9e0349.js.map": "/Piyush-Portfolio/static/js/main.cc9e0349.js.map"
   },
   "entrypoints": [
-    "static/css/main.ff2db983.css",
-    "static/js/main.74cf3cbd.js"
+    "static/css/main.cd433e2d.css",
+    "static/js/main.cc9e0349.js"
   ]
 }
