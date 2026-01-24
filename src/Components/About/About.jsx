@@ -32,10 +32,7 @@ const About = () => {
           </div>
 
           <p>
-            Hello, I am Piyush Pamnani, a final year engineering student in
-            Electronics and Communication from MIT World Peace University Pune.
-            I have created a professional portfolio showcasing my passion for
-            self-learning and my achievements in various projects.
+            Full Stack Software Developer with 1+ year of professional experience building scalable web applications. Worked at Deqode Solutions, where I have contributed to multiple production-grade projects, including a full-stack banking application and enterprise client projects, with brief exposure to blockchain-based integrations. Graduated in Electronics and Communication Engineering from MIT World Peace University, Pune with 8.66 CGPA. Completed multiple internships across product-based and service-based companies, gaining hands-on experience in scalable frontend, backend, and testing practices.
           </p>
 
           <a href="#contact" className="btn btn-primary">
