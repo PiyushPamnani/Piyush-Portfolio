@@ -65,7 +65,9 @@ jobs:
       - name: Deploy to gh-pages branch
         # --ignore-scripts skips the "predeploy" hook, since the Build step already ran.
         run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git remote set-url origin "https://git:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
-          npm run deploy --ignore-scripts -- -u "github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>"
+          npm run deploy --ignore-scripts
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
