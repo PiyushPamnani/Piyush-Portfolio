@@ -21,7 +21,7 @@ const About = () => {
             <article className="about_card">
               <FiAward className="about_icon" />
               <h5>Experience</h5>
-              <small>1+ year</small>
+              <small>2+ year</small>
             </article>
 
             <article className="about_card">
@@ -32,7 +32,16 @@ const About = () => {
           </div>
 
           <p>
-            Full Stack Software Developer with 1+ year of professional experience building scalable web applications. Worked at Deqode Solutions, where I have contributed to multiple production-grade projects, including a full-stack banking application and enterprise client projects, with brief exposure to blockchain-based integrations. Graduated in Electronics and Communication Engineering from MIT World Peace University, Pune with 8.66 CGPA. Completed multiple internships across product-based and service-based companies, gaining hands-on experience in scalable frontend, backend, and testing practices.
+            Full Stack Software Developer with 2+ year of professional
+            experience building scalable web applications. Worked at Deqode
+            Solutions, where I have contributed to multiple production-grade
+            projects, including a full-stack banking application and enterprise
+            client projects, with brief exposure to blockchain-based
+            integrations. Graduated in Electronics and Communication Engineering
+            from MIT World Peace University, Pune with 8.66 CGPA. Completed
+            multiple internships across product-based and service-based
+            companies, gaining hands-on experience in scalable frontend,
+            backend, and testing practices.
           </p>
 
           <a href="#contact" className="btn btn-primary">

@@ -8,9 +8,9 @@
       rel="apple-touch icon"
       type="image/png"
       sizes="16x16"
-      href="%PUBLIC_URL%/favicon-16x16.png"
+      href="/favicon-16x16.png"
     />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="/favicon.ico" type="image/x-icon" />
     <title>Piyush Pamnani</title>
     <meta
       name="description"
@@ -23,6 +23,7 @@
     <meta name="author" content="Piyush Pamnani" />
 
     <!-- Facebook Meta Tags -->
+    <meta property="og:site_name" content="Piyush Pamnani" />
     <meta
       property="og:url"
       content="https://piyushpamnani.github.io/Piyush-Portfolio/"
@@ -57,15 +58,6 @@
   </head>
   <body>
     <div id="root"></div>
-
-    <script
-      type="text/javascript"
-      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
-    ></script>
-    <script type="text/javascript">
-      (function () {
-        emailjs.init("Ep_3h0qug5UrBxyr4");
-      })();
-    </script>
+    <script type="module" src="/src/index.jsx"></script>
   </body>
 </html>
