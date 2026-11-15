@@ -33,8 +33,10 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v7
         with:
-          node-version: 22
-          cache: npm
+          # Same major version as the development machine (Node 26 bundles npm 11),
+          # so lockfiles created there are read the same way here.
+          # No `cache: npm` on purpose: it fails the job when package-lock.json is missing.
+          node-version: 26
 
       - name: Check required secrets
         # Stop here instead of publishing a site with a broken contact form.
@@ -45,7 +47,17 @@ jobs:
           fi
 
       - name: Install dependencies
-        run: npm ci
+        # Prefer exact versions from package-lock.json. If the lockfile is missing or
+        # out of sync with package.json, fall back to `npm install` instead of failing.
+        # (The Build step still stops the deploy if anything installed wrongly.)
+        run: |
+          npm --version
+          if [ -f package-lock.json ] && npm ci --no-audit --no-fund; then
+            echo "Installed exact versions from package-lock.json"
+          else
+            echo "::warning::package-lock.json is missing or out of sync with package.json, so npm install was used. To silence this, run 'npm install' locally and commit package-lock.json."
+            npm install --no-audit --no-fund
+          fi
 
       - name: Build
         run: npm run build
