@@ -1,0 +1,59 @@
+name: Deploy to GitHub Pages
+
+on:
+  # A merged PR is a push to master, so this runs on every merge.
+  push:
+    branches: [master]
+  # Allows a manual re-deploy from the Actions tab.
+  workflow_dispatch:
+
+# Needed so the job can push the built site to the gh-pages branch.
+permissions:
+  contents: write
+
+# Never run two deployments at once; a newer merge waits for the current one.
+concurrency:
+  group: gh-pages-deploy
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    env:
+      # The Web3Forms access key is baked into the bundle at build time (contact form).
+      # Add it in: Settings → Secrets and variables → Actions → New repository secret
+      VITE_WEB3FORMS_ACCESS_KEY: ${{ secrets.WEB3FORMS_ACCESS_KEY }}
+
+    steps:
+      - name: Check out code
+        uses: actions/checkout@v7
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v7
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Check required secrets
+        # Stop here instead of publishing a site with a broken contact form.
+        run: |
+          if [ -z "$VITE_WEB3FORMS_ACCESS_KEY" ]; then
+            echo "::error::Repository secret WEB3FORMS_ACCESS_KEY is not set"
+            exit 1
+          fi
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build
+        run: npm run build
+
+      - name: Deploy to gh-pages branch
+        # --ignore-scripts skips the "predeploy" hook, since the Build step already ran.
+        run: |
+          git remote set-url origin "https://git:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
+          npm run deploy --ignore-scripts -- -u "github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
